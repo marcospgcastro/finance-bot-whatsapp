@@ -1,0 +1,26 @@
+{
+  "name": "finance-bot-whatsapp",
+  "version": "1.0.0",
+  "description": "Consulte o valor das ações no mercado BOVESPA",
+  "main": "index.js",
+  "scripts": {
+    "start": "sh start.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcospgcastro/finance-bot-whatsapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcospgcastro/finance-bot-whatsapp/issues"
+  },
+  "homepage": "https://github.com/marcospgcastro/finance-bot-whatsapp#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.17.1"
+  }
+}
